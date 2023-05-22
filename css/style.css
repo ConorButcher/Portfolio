@@ -667,6 +667,29 @@ body {
   }
 }
 
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 /* -------------------------------- 
 support for no js 
 -------------------------------- */
@@ -1207,6 +1230,7 @@ support for no js
 .p-80-cont{ padding-top:80px; padding-bottom:80px;}
 .p-110-cont{ padding-top:110px; padding-bottom:110px;}
 .p-120-cont{ padding-top:140px; padding-bottom:0px;}
+.p-121-cont{ padding-top:0px; padding-bottom:0px;}
 .p-140-cont{ padding-top:140px; padding-bottom:140px;}
 .pt-110-cont{ padding-top:110px;}
 .pt-100-cont{ padding-top:100px;}
