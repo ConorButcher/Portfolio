@@ -2807,6 +2807,14 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   font-weight: 400;
   text-transform:uppercase;
 }
+.page-title-2 {
+  margin-bottom:20px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  text-transform:uppercase;
+}
 .page-title-font-big {
   margin-bottom:0px;
   font-size: 40px;
@@ -2836,7 +2844,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 .breadcrumbs a:hover, .bread-current{
   color:#101010;
 }
-.grey-dark-bg .page-title, .grey-dark-bg .page-title-big{
+.grey-dark-bg .page-title, .page-title-2, .grey-dark-bg .page-title-big{
   color:#fff;
 }
 .grey-dark-bg .page-sub-title{
@@ -3212,7 +3220,7 @@ select.input-border {
 }
 #main-menu .navbar .nav > li > a {
   font-size:12px;
-  color:#5c6066;
+  color:#fff;
   z-index: 1;
   text-shadow: none;
   -webkit-transition: padding .4s ease 0s, border-color .6s ease 0s;
