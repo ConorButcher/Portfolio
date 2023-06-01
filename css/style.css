@@ -1102,69 +1102,6 @@ support for no js
 	margin-top:10px;
 }
 
-/* #FEATURES 2-3 #NEW
-=====================================================*/
-
-@media only screen and (min-width: 992px) {
-  .left-50{
-    left:50%;
-  }
-  .right-50{
-    right:50%;
-  }
-}
-.fes2-main-text-cont {
-  margin: 0 auto;
-  padding: 145px 50px 140px 50px;
-  max-width:500px; 
-}
-.fes2-text-cont{
-	margin-top:30px;
-}
-.fes2-img {
-  background: url(../images/fes2.jpg) 50% 50% no-repeat;
-  
-  width: 100%;
-  display: block;	
-  position: relative;
-  background-size: cover;
-     
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.title-fs-45 {
-	color:#4b4e53;
-	font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 45px;
-	line-height: 45px;
-	font-weight: 300;
-}
-.fes3-img {
-  background: url(../images/fes3.jpg) 50% 50% no-repeat;
-  background-size: cover;
-  
-  width: 100%;
-  display: block;	
-  position: relative;
-  background-size: cover;
-     
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.line-3-70{
-	margin-top:11px;
-	height:3px;
-	width:70px;
-	background:#4b4e53;
-}
-
 /* #FEATURES 4 #NEW
 =====================================================*/
 .fes4-cont{
@@ -2183,7 +2120,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background: #2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background: #2c2c2c url("../images/Video Background.jpg") fixed;
   color:#f1f1f1;
 }
 .work-proc-1-bg h3, .work-proc-1-bg .icon  {
@@ -2282,7 +2219,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background:#2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background:#2c2c2c url("../images/Video Background.jpg") fixed;
 }
 .video-ads-text-cont {
   margin:0 auto;
@@ -2632,7 +2569,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-repeat: no-repeat;
 }
 .sm-video-bg {
-  background-image: url(../images/static-media/video-bg.jpg);
+  background-image: url("../images/about-me9.jpg");
   background-position: 50% 0px;
   background-size:cover;
   overflow: hidden;
@@ -2715,107 +2652,6 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   height: inherit;
   z-index: 0;
 } 
-
-/*****  ALFA BG  *****/
-.bg-img-alfa:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url(../images/static-media/img-alfa-wide.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index:1;
-
-  display: block;
-  background-size: cover;
-     
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-repeat: no-repeat;
-}
-@media only screen and (max-width : 1024px) {
-  .bg-img-alfa:before { background-image: url(../images/static-media/img-alfa-wide-1024.png);}
-}
-@media (max-width : 1024px) and (orientation: portrait) {
-  .bg-img-alfa:before { background-image: url(../images/static-media/img-alfa-wide-768.png);}
-}
-
-.bg-dark-alfa-40:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .4);
-}
-.bg-dark-alfa-50:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .5);
-}
-.bg-dark-alfa-60:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .6);
-}
-.bg-dark-alfa-70:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .7);
-}
-.bg-dark-alfa-80:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .8);
-}
-.bg-dark-alfa-90:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(3,3,3, .9);
-}
-
-.sm-mt-0 { margin-top:0px;}
-.sm-mt-20 { margin-top:20px;}
-.sm-mt-40 { margin-top:40px;}
-.sm-mt-50 { margin-top:50px;}
-.sm-mt-55 { margin-top:55px;}
-.sm-mt-60 { margin-top:60px;}
-.sm-mt-70 { margin-top:70px;}
-.sm-mb-10 { margin-bottom:10px;}
-.sm-mb-15 { margin-bottom:15px;}
-.sm-mb-20 { margin-bottom:20px;}
-.sm-mb-40 { margin-bottom:40px;}
-.sm-mb-50 { margin-bottom:50px;}
-.sm-mb-60 { margin-bottom:60px;}
-.sm-mb-70 { margin-bottom:70px;}
-.sm-mb-80 { margin-bottom:80px;}
-.sm-mb-100 { margin-bottom:100px;}
 
 /* #PAGE TITLE #NEW
 =====================================================*/
@@ -4906,65 +4742,6 @@ blockquote.custom-blockquote:before {
 }
 .audio-box audio{
 	width:100%;
-}
-
-/* #MAINTENANCE 
-================================================== */
-.maintenance-icon-container {
-	margin-top:10px;
-	margin-bottom:50px;
-}
-.maintenance-icon {
-	font-size:175px;
-}
-.maintenance-text-container h1 {
-	margin-top:0;
-	margin-bottom:10px;
-	font-size:70px;
-	line-height:70px;
-	font-weight:600;
-}
-.maintenance-text-container h2 {
-	margin-top:0;
-}
-.maintenance-container {
-	padding-top:250px;
-	padding-bottom:150px;
-}
-.under-constr-bg {
-  background: url(../images/under-const.jpg) 50% 50%; 
-  background-size: cover !important;
-  
-  width: 100%;
-  display: block;	
-  position: relative;
-  background-size: cover;
-     
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-@media only screen and (max-width: 767px) {
-  .maintenance-container {
-    padding-top:150px;
-    padding-bottom:100px;
-  }
-  .coming-soon-main-text-container h3 {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  .text-left-767 {
-    text-align:left;
-  }
-  .text-center-767 {
-    text-align:center;
-  }
-  .w-100-767 {
-    width:100%;
-  }
 }
 
 /* #PORTFOLIO
