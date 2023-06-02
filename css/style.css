@@ -1781,7 +1781,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
    Phone
    ============================== */
   
-@media only screen and (max-width : 290px ){
+@media only screen and (max-width : 500px ){
 	.port-item, .port-grid-2 .port-item,	.port-grid-3 .port-item, .container .port-grid-3 .port-item, .port-grid-5 .port-item , .port-item.port-item-width-2{
     width: 100%;
   }	
@@ -1790,13 +1790,17 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     line-height: 38px;
     letter-spacing: 1px;
   } 
+
+}
+
+@media only screen and (max-width : 250px ){
+	
   .port-filter a {
     width:100%;
     display: block;
   }
 
 }
-
 /* #PORTFOLIO 1 #NEW 
 =====================================================*/
 .port-main-img {
