@@ -910,7 +910,7 @@ support for no js
 
 
 /*==========  Mobile  ==========*/
-@media only screen and (max-width : 478px) {
+@media only screen and (max-width : 290px ){
 	.slider-bg-white-cap {
 		display:block;
 		visibility:visible;
@@ -1234,7 +1234,7 @@ support for no js
 	}
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 290px ){
   .p-140-cont{ padding-top:60px; padding-bottom:60px;}
 }
 
@@ -1418,7 +1418,7 @@ support for no js
   position:relative;
 }
 
-@media (max-width: 480px) {
+@media (max-width : 290px ){
   .fes9-img-center {
     width:280px;
     height:280px;
@@ -1781,7 +1781,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
    Phone
    ============================== */
   
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width : 290px ){
 	.port-item, .port-grid-2 .port-item,	.port-grid-3 .port-item, .container .port-grid-3 .port-item, .port-grid-5 .port-item , .port-item.port-item-width-2{
     width: 100%;
   }	
@@ -2370,7 +2370,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   border:none;
 }
 
-@media (max-width: 480px) {
+@media (max-width : 290px ){
   .section-more.left, .section-more.right {
     float: none !important;
     display: block;
@@ -3836,7 +3836,7 @@ header.affix .logo .logo-img {
     text-align: center;
   }
 }
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 290px ){
   #google-map, #google-map.contact-form-with-catcha, .google-map iframe {
     height:300px;
   }
@@ -3866,7 +3866,7 @@ header.affix .logo .logo-img {
   color:#101010;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width : 290px ){
 
   .xs-tabs-transform.nav-tabs {
     border-bottom: none;
@@ -4583,7 +4583,7 @@ blockquote.custom-blockquote:before {
     margin-left:-35px;
   } 
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width : 290px ){
   .comment-avatar {
     width:40px;
     margin-right: 10px;
@@ -6124,7 +6124,7 @@ a:hover, a:focus {
   
   .plr-xs-0{padding-left:0;padding-right:0;}
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width : 290px ){
   .mt-xxs-0{margin-top:0!important}
   .mt-xxs-5 {margin-top:5px !important;}
   .mt-xxs-10{margin-top:10px}
@@ -7386,7 +7386,7 @@ h2.portfolio-timeline-title {
 /******************************************************************************
   Max Width "480px"
 *******************************************************************************/
-@media (max-width: 480px) {
+@media (max-width : 290px ){
   .text-center-xxs {
     text-align:center;
   }
@@ -8019,7 +8019,7 @@ h2.portfolio-timeline-title {
 /******************************************************************************
   Max Width "479px"
 *******************************************************************************/
-@media (max-width: 479px) {
+@media (max-width : 289px ){
   .nl-email-input {
     width: 240px;
     margin-right: 0px;
@@ -9865,7 +9865,7 @@ header.is-fixed {
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width : 290px ){
   .fs-primary-nav>ul {
     margin-top:20px;
   }
@@ -10069,7 +10069,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .cafe-menu-tab-nav li.active>a{
   border-bottom:1px solid #101010 !important;
 }
-@media only screen and (max-width : 478px) {
+@media only screen and (max-width : 290px ){
   .cafe-menu-tab-nav>li {
     float: none !important;
   }
@@ -10213,7 +10213,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     margin: 10px 0;
   }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width : 290px ){
   .fs-primary-nav.fs-sub-nav li a {
     padding: 5px 20px;
     font-size: 16px;
@@ -10451,7 +10451,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     width: 470px!important;
   }
 }
-@media (max-width: 479px) {
+@media (max-width : 289px ){
   .container-2,#header.header-fullwidth .container-2
   {
     width:100%!important
@@ -10741,7 +10741,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   font-size:34px;
   line-height:43px;
 }
-@media (max-width: 480px) {
+@media (max-width : 290px ){
   .sl1-text {
     font-size:26px;
     line-height:32px;
